@@ -350,3 +350,60 @@ $(document).ready(function() {
 
 
  // -------------------------------------------------
+
+             // -------------------------------------------------
+
+$(document).ready(function() {
+  $(".morek7").on("click", function() {
+    // cambiar la visibilidad de complete
+    $(".completek7").toggle();
+
+    // cambiar el texto del boton dependiendo del texto actual
+    if ($(this).text() == "Leer menos...") {
+      $(this).text("Leer mas...");
+    } else {
+      $(this).text("Leer menos...");
+    }
+  });
+});
+
+
+ // -------------------------------------------------
+
+             // -------------------------------------------------
+
+$(document).ready(function() {
+  $(".morek8").on("click", function() {
+    // cambiar la visibilidad de complete
+    $(".completek8").toggle();
+
+    // cambiar el texto del boton dependiendo del texto actual
+    if ($(this).text() == "Leer menos...") {
+      $(this).text("Leer mas...");
+    } else {
+      $(this).text("Leer menos...");
+    }
+  });
+});
+
+
+ // -------------------------------------------------
+
+              // -------------------------------------------------
+
+$(document).ready(function() {
+  $(".morek9").on("click", function() {
+    // cambiar la visibilidad de complete
+    $(".completek9").toggle();
+
+    // cambiar el texto del boton dependiendo del texto actual
+    if ($(this).text() == "Leer menos...") {
+      $(this).text("Leer mas...");
+    } else {
+      $(this).text("Leer menos...");
+    }
+  });
+});
+
+
+ // -------------------------------------------------
